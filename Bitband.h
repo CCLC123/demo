@@ -3,7 +3,7 @@
 
 #include "main.h"
 
-
+OK
 /* 位带别名区计算公式 */
 #define BITBAND(addr, bit)	(*(volatile unsigned long*)((addr & 0xF0000000U) + 0x2000000U + ((addr & 0xFFFFFFU) << 5U) + (bit << 2U)))
 
